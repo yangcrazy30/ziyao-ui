@@ -3,7 +3,7 @@
 ## install
 
 ```
-npm install zeo-ui -S
+npm install ziyao-ui -S
 ```
 
 ### Import Zeo-Ui
