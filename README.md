@@ -1,19 +1,22 @@
 # zeo-ui
 
-## Project setup
+## install
+
 ```
-npm install
+npm install zeo-ui -S
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Import Zeo-Ui
 
-### Compiles and minifies for production
-```
-npm run build
-```
+```javascript
+import Vue from "vue";
+import ZeoUi from "zeo-ui";
+import App from "./App.vue";
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.use(ZeoUi);
+
+new Vue({
+  el: "#app",
+  render: h => h(App)
+});
+```
