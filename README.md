@@ -10,7 +10,7 @@ npm install ziyao-ui -S
 
 ```javascript
 import Vue from "vue";
-import ZeoUi from "zeo-ui";
+import ZeoUi from "ziyao-ui";
 import App from "./App.vue";
 
 Vue.use(ZeoUi);
